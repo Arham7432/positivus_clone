@@ -1,0 +1,11 @@
+@media (max-width: 768px) {
+    .svg-item img {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .svg-item img {
+        width: 60px;
+    }
+}
