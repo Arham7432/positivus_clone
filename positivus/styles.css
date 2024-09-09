@@ -547,6 +547,18 @@ nav i {
     transition: all 0.3s ease;
 }
 
+@media (min-width: 1690px) {
+    main {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    .hero-content h2 {
+        font-size: 4vw;
+    }
+}
+
+
 @media (max-width: 768px) {
     .card-grid {
         grid-template-columns: 1fr;
@@ -581,6 +593,14 @@ nav i {
 }
 
 @media (max-width: 600px) {
+
+    header {
+        padding: 20px 15px;
+    }
+
+    header img {
+        width: 40vw;
+    }
 
     br {
         display: none;
@@ -650,7 +670,19 @@ nav i {
         flex-direction: row;
     }
 
+    .accordion-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .accordion-icon i {
+        font-size: 9vw;
+        font-weight: 500;
+    }
+
     .form-options {
+        font-weight: 100;
+        font-size: 28px;
         width: 110%;
     }
 
@@ -660,6 +692,10 @@ nav i {
 
     .contact-form .button {
         padding: 15px 20px;
+    }
+
+    .contact-form button {
+        border-radius: 14px;
     }
 
     .hero-content {
