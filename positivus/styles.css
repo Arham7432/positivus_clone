@@ -133,6 +133,10 @@ nav i {
     filter: grayscale(100%);
 }
 
+.svg-item img:hover {
+    filter: grayscale(0);
+}
+
 .services-section {
     display: flex;
     align-items: center;
